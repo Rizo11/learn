@@ -1,11 +1,14 @@
-﻿using System.Diagnostics;
+﻿using System.Collections.Concurrent;
+using System.Diagnostics;
 namespace concurrent
 {
     class Programm
     {
         static int Total = 0;
         static object _lock = new object();
-        public static void Main(string[] args)
+
+        #region thread_Safe_coding
+        public static void Main1(string[] args)
         {
             Stopwatch timer = new();
             //single threaded
@@ -50,6 +53,15 @@ namespace concurrent
                 Interlocked.Increment(ref Total);
             }
         }
+        #endregion
+
+        #region ConcurrentDictionary
+        public static void Main(string[] args)
+        {
+            ConcurrentDictionary<int, string> dict = new();
+        }
+        #endregion
          
     }
+
 }
