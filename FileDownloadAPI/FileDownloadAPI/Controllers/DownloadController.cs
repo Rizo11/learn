@@ -75,7 +75,7 @@ namespace FileDownloadAPI.Controllers
 
                 var result = new FileContentResult(bytesXlsx, "application/octet-stream")
                 {
-                    FileDownloadName = "File.csv"
+                    FileDownloadName = "File.xlsx"
                 };
 
                 return result;
