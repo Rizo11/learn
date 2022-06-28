@@ -1,0 +1,648 @@
+{
+    "Featurs": [
+        {
+        "Feature": 1,
+        "Name": "SmgAdministrator",
+        "Description": "Never used"
+        },
+        {
+        "Feature": 2,
+        "Name": "ItAdministratorWithoutEmployee",
+        "Description": "ItAdministratorWithoutEmployee used inside SetupAccountButton accessor. SetupAccountButton used inside Profile as a Setup Account action bar button."
+        },
+        {
+        "Feature": 100,
+        "Name": "AdministrativeLocationControl",
+        "Description": "AdministrativeLocationControl used inside LocationControl accessor. LocationControl used to perform update of Aministrative request."
+        },
+        {
+        "Feature": 101,
+        "Name": "AdministrativeAccountSertificate",
+        "Description": "1. used in LocationControl; LocationControl is use for performing update of administrative request. 2. used in AssigneeControl. AssigneeControl is used for updating administrative request. 3. used inside AdministrativeFeedbackAppealControl feature, AdministrativeUpdateButton feature, AdministrativeInProgressButton feature, AdministrativePuaseButton feature, AdministrativeCancelButton, AdministrativeCompleteButton. 8. access for Administrative Requests overview"
+        },
+        {
+        "Feature": 102,
+        "Name": "AdministrativePersonnelDepartmentCertificate",
+        "Description": "1. used in LocationControl; LocationControl is use for performing update of administrative request. 2. used in AssigneeControl. AssigneeControl is used for updating administrative request. 3. used inside AdministrativeFeedbackAppealControl feature, AdministrativeUpdateButton feature, AdministrativeInProgressButton feature, AdministrativePuaseButton feature, AdministrativeCancelButton, AdministrativeCompleteButton. 8. access for Administrative Requests overview"
+        },
+        {
+        "Feature": 103,
+        "Name": "AdministrativeAssigneeControl",
+        "Description": "1. used inside AssigneeControl. AssigneeControl is used for updating administrative request. 2. AssigneeControl is Assginees in Administrative Request Overview."
+        },
+        {
+        "Feature": 104,
+        "Name": "AdministrativeEtaControl",
+        "Description": "1. Used inside EtaControl. EtaControl is ETA in Administrative Request Overview. 2. Used inside EtaStatusColumm. EtaStatusColumm used 2.1 To get Administrative Request Grid. 2.2 EtaStatusColumm used to get ETA status columm."
+        },
+        {
+        "Feature": 105,
+        "Name": "AdministrativeFeedbackSection",
+        "Description": "AdministrativeFeedbackSection used inside FeedbackSection. FeedbackSection used to get Feedback section in Administrative Request Overview."
+        },
+        {
+        "Feature": 106,
+        "Name": "AdministrativeDetailsControl",
+        "Description": "AdministrativeDetailsControl used inside DetailsControl. DetailsControl used to get perform update of Aministrative Request."
+        },
+        {
+        "Feature": 107,
+        "Name": "AdministrativeUpdateButton",
+        "Description": "AdministrativeUpdateButton is used inside UpdateButton accessor.UpdateButton is used inside Administrative Request Overview as action bar button."
+        },
+        {
+        "Feature": 108,
+        "Name": "AdministrativeInProgressButton",
+        "Description": "AdministrativeInProgressButton used inside InProgressButton accessor.InProgressButton is used inside Administrative Request Overview as InProgress action bar button."
+        },
+        {
+        "Feature": 109,
+        "Name": "AdministrativePauseButton",
+        "Description": "AdministrativePauseButton used inside PauseButton accessor. PauseButton used in Administrative Request Overview as Puase action bar button."
+        },
+        {
+        "Feature": 110,
+        "Name": "AdministrativeCompleteButton",
+        "Description": "AdministrativeCompleteButton used inside CompleteButton accessor.CompleteButton is used inside Administrative Request Overview as Complete action bar button."
+        },
+        {
+        "Feature": 111,
+        "Name": "AdministrativeFeedbackAppealControl",
+        "Description": "AdministrativeFeedbackAppealControl used inside FeedbackAppealControl accessor. FeedbackAppealControl is an access for Feedback Appeal view inside Feedback section of Administrative Request Overview."
+        },
+        {
+        "Feature": 112,
+        "Name": "AdministrativeCancelButton",
+        "Description": "AdministrativeCancelButton used inside CancelButton accessor. CancelButton is used inside Administrative Request Overview as Cancel action bar button. Red color."
+        },
+        {
+        "Feature": 113,
+        "Name": "AdministrativeDetailsSetup",
+        "Description": "AdministrativeDetailsSetup is one of the accessors to get Overview of Aministrative Requests."
+        },
+        {
+        "Feature": 114,
+        "Name": "AdministrativeProjects",
+        "Description": "accessors to Administrative/Projects. To get Projects you must be Superuser or have AdministrativeProjects feature."
+        },
+        {
+        "Feature": 115,
+        "Name": "AdministrativeCustomers",
+        "Description": "accessors to Adminstative/Cutomers. To get Customers you must be Superuser or have AdministrativeCustomers feature."
+        },
+        {
+        "Feature": 116,
+        "Name": "AdministrativeTimeApproval",
+        "Description": "accessor to Administrative/TimeApproval. To get TimeApproval you must be Superuser or have AdministrativeTimeApproval feature."
+        },
+        {
+        "Feature": 200,
+        "Name": "CustomerExportButton",
+        "Description": "Export button in Customer List."
+        },
+        {
+        "Feature": 300,
+        "Name": "DefectStatusControl",
+        "Description" : "DefectStatusControl used inside StatusContorl accessor. StatusControl is used 1.1 to access UpdateButton accessor, 1.2 to update defects."
+        },
+        {
+        "Feature": 400,
+        "Name": "EmployeeCompensationsDays",
+        "Description": "EmployeeCompensationsDays is one of the accessors to add Compennsation Days to Employee. To add compensation days you must be Superuser or have EmployeeCompensationsDays feature."
+        },
+        {
+        "Feature": 401,
+        "Name": "EmployeePhotoImage",
+        "Description": "used indie of PhotoImage accessor. PhotoImage is used inside UpdateButton accessor. UpdateButton is used inside. Profile as Save action bar button."
+        },
+        {
+        "Feature": 402,
+        "Name": "EmployeeProfileJournalPane",
+        "Description": "used inside of 1. ProfileJournalPane. ProfileJournalPane used inside 1.1 LeaveJournalPane 1.2 JournalPane. 1.2.1 JournalPlance used as a Open journal action bar button in Profile. 1.2.2 to render Button view inside profile"
+        },
+        {
+        "Feature": 403,
+        "Name": "EmployeeLeaveJournalPane",
+        "Description": "used inside LeaveJournalPane accessor."
+        },
+        {
+        "Feature": 404,
+        "Name": "AdministrativeEmployeesLeave",
+        "Description": "one of the accessors to get Employees Leave.(Administrative/Employees/Leaves). access for Superuser, AdministrativeEmployeesLeave feature, Employee."
+        },
+        {
+        "Feature": 405,
+        "Name": "EmployeeAdministrativeEmployeesItRequest",
+        "Description": "access for Administrative/Employees/ItRequests."
+        },
+        {
+        "Feature": 407,
+        "Name": "EmployeeAdministrativeEmployeesProjects",
+        "Description": "access for Administrative/Employees/Projects."
+        },
+        {
+        "Feature": 408,
+        "Name": "EmployeeAdministrativeEmployeesTimeTracking",
+        "Description": "access for Administrative/Employees/TimeTracking."
+        },
+        {
+        "Feature": 409,
+        "Name": "EmployeeAdministrativeEmployeesPersonalSetting",
+        "Description": "access for Administrative/Employees/PersonalSetting"
+        },
+        {
+        "Feature": 410,
+        "Name": "EmployeeAdministrativeEmployeesPersonalDeparment",
+        "Description": "access for Administrative/Employees/PersonalDepartment"
+        },
+        {
+        "Feature": 411,
+        "Name": "EmployeeAdministrativeEmployeesPersonalDeparmentWithUnits",
+        "Description": "access for Administrative/Employees/PersonalDepartment"
+        },
+        {
+        "Feature": 412,
+        "Name": "EmployeeProfileJournalPanel",
+        "Description": "used inside ProfileJournalPane accessor. ProfileJournalPane used to access ProfileJournal."
+        },
+        {
+        "Feature": 413,
+        "Name": "HrTeamManagerAndOtherEmployee",
+        "Description": "used inside ProfileJournalPane accessor. ProfileJournalPane used to access ProfileJournal."
+        },
+        {
+        "Feature": 414,
+        "Name": "EmployeeLeaveDeleteButton",
+        "Description": "used inside DeleteButton accessor. DeleteButton used to access DeleteLeave."
+        },
+        {
+        "Feature": 415,
+        "Name": "EmployeeApproveWithSalesButton",
+        "Description": "used inside ApproveWithSalesButton accessor."
+        },
+        {
+        "Feature": 416,
+        "Name": "EmployeeApproveButton",
+        "Description": "used inside ApproveButton accessor. ApproveButton used inside DeclineButton accessor."
+        },
+        {
+        "Feature": 417,
+        "Name": "EmployeeApproverSection",
+        "Description": "used inside ApproverSection accessor. ApproveSection is used 1. to get form to create Employee Leave. "
+        },
+        {
+        "Feature": 418,
+        "Name": "EmployeeRequesterSection",
+        "Description": "used inside RequesterSection accessor. RequesterSection is used to create employee leave, get form to create Employee Leave."
+        },
+        {
+        "Feature": 419,
+        "Name": "EmployeeExportButton",
+        "Description": "used inside ExportButton accessor in Employee List."
+        },
+        {
+        "Feature": 420,
+        "Name": "EmployeeToggleInactiveButton",
+        "Description": "used inside ToggleInactiveButton accesspr. ToggleInactiveButton used 1. to check accessibility in ToggleInactive class inside List class, inside Employee. 2. to get employee list with inactive users."
+        },
+        {
+        "Feature": 421,
+        "Name": "ToggleUnemployedButton",
+        "Description": "used to get all deleted employees"
+        },
+        {
+          "Feature": 422,
+          "Name": "EmployeeProfileGeneralInformationSection",
+          "Description": "used to access employee's general information section in employee's profile."
+        },
+        {
+          "Feature": 423,
+          "Name": "EmployeeProfileGeneralInformationPersonalNumber",
+          "Description": "used to access employee's personal number in employee's profile."
+        },
+        {
+          "Feature": 424,
+          "Name": "EmployeeProfileGeneralInformationDisability",
+          "Description": "used to access employee's disability information in employee's profile."
+        },
+        {
+          "Feature": 425,
+          "Name": "EmployeeProfileCorporateInformationSection",
+          "Description": "used to access employee's corporate information in employee's profile."
+        },
+        {
+          "Feature": 426,
+          "Name": "EmployeeProfilePersonalInformationSectionAvailable",
+          "Description": "used to access employee's personal information section in employee's profile."
+        },
+        {
+          "Feature": 427,
+          "Name": "EmployeeProfilePersonalInformationSectionAccessible",
+          "Description": "used to access employee's personal information section in employee's profile."
+        },
+        {
+          "Feature": 428,
+          "Name": "EmployeeProfileWorkExperienceFieldAvailable",
+          "Description": "used to access empoloyee's work experience field in employee's profile."
+        },
+        {
+          "Feature": 429,
+          "Name": "EmployeeProfileWorkExperienceFieldAccessible",
+            "Description": "used to access employee's work experience field in employee's profile."
+        },
+        {
+          "Feature": 430,
+          "Name": "EmployeeProfileAdditionalCorporateInformationSectionAvailable",
+          "Description": "used to access employee's conporate information section in employee's profile."
+        },
+        {
+          "Feature": 431,
+          "Name": "EmployeeProfileAdditionalCorporateInformationSectionAccessible",
+          "Description": "used to access employee's conporate information section in employee's profile."
+        },
+        {
+          "Feature": 432,
+          "Name": "EmployeeProfileRiskFactorImpact",
+          "Description": "used to access employee's quit impact info in employee's profile."
+        },
+        {
+          "Feature": 433,
+          "Name": "EmployeeProfileRiskFactorQuit",
+          "Description": "used to access employee's quit info in employee's profile."
+        },
+        {
+          "Feature": 434,
+          "Name": "EmployeeProfileEducationSection",
+          "Description": "used to access employee's profile education section in employee's profile."
+        },
+        {
+          "Feature": 435,
+          "Name": "EmployeeProfileSettingsSection",
+          "Description": "used to access employee's profile settings section in employee's profile."
+        },
+        {
+          "Feature": 436,
+          "Name": "EmployeeProfileTimeTrackingSettingsSection",
+          "Description": "used to access employee's profile time tracking settings section in employee's profile."
+        },
+        {
+          "Feature": 437,
+          "Name": "EmployeeProfileHidenPersonalInformation",
+          "Description": "used to access employee's profile hiden personal information section in employee's profile."
+        },
+        {
+          "Feature": 438,
+          "Name": "EmployeeProfileSetupAccountButton",
+          "Description": "used to access setup account button in employee's profile."
+        },
+        {
+          "Feature": 439,
+          "Name": "EmployeeProfileVerifiedButton",
+          "Description": "flag for checking varification of employee"
+        },
+        {
+          "Feature": 455,
+          "Name": "EmployeeGetLeaveAddCompensationButton"
+        },
+        {
+          "Feature": 456,
+          "Name": "EmployeeGetLeaveAddHsitoryButton"
+        },
+        {
+          "Feature": 466,
+          "Name": "BirthDateInfo"
+        },
+        {
+          "Feature": 472,
+          "Name": "OOORequestFullAccess"
+        },
+        {
+          "Feature": 473,
+          "Name": "OOORequestPhoneColumn"
+        },
+        {
+          "Feature": 474,
+          "Name": "EmployeeIllnessRemainingDaysColumn"
+        },
+        {
+          "Feature": 475,
+          "Name": "EmployeeVacationRemainingDaysColumn"
+        },
+        {
+          "Feature": 476,
+          "Name": "CompensationButton"
+        },
+        {
+          "Feature": 478,
+          "Name": "EmployeeQuitColumn"
+        },
+        {
+          "Feature": 480,
+          "Name": "EmployeeResponsibleHrManagerColumn"
+        },
+        {
+          "Feature": 489,
+          "Name": "EmployeeDismissalDateColumn"
+        },
+        {
+          "Feature": 490,
+          "Name": "EmployeeEmploymentDateColumn"
+        },
+        {
+          "Feature": 491,
+          "Name": "EmployeeGenderColumn"
+        },
+        {
+          "Feature": 492,
+          "Name": "EmployeePhoneColumn"
+        },
+        {
+          "Feature": 500,
+          "Name": "ServiceRequestInfoTips"
+        },
+        {
+          "Feature": 501,
+          "Name": "ServiceRequestSetupScheduling"
+        },
+        {
+          "Feature": 502,
+          "Name": "ServiceRequestChainSubmission"
+        },
+        {
+          "Feature": 503,
+          "Name": "ServiceRequestDetailsFeedbackSection"
+        },
+        {
+          "Feature": 504,
+          "Name": "ServiceRequestDetailsFeedbackEvaluationControl"
+        },
+        {
+          "Feature": 505,
+          "Name": "ServiceRequestDetailsFeedbackEvaluateButton"
+        },
+        {
+          "Feature": 506,
+          "Name": "ServiceRequestDetailsFeedbackAppealControl"
+        },
+        {
+          "Feature": 507,
+          "Name": "ServiceRequestDetailsFeedbackAppealButton"
+        },
+        {
+          "Feature": 508,
+          "Name": "ServiceRequestDetailsInformationSection"
+        },
+        {
+          "Feature": 509,
+          "Name": "ServiceRequestDetailsProcessingSection"
+        },
+        {
+          "Feature": 510,
+          "Name": "ServiceRequestDetailsPriorityControl"
+        },
+        {
+          "Feature": 511,
+          "Name": "ServiceRequestDetailsEtaControl"
+        },
+        {
+          "Feature": 512,
+          "Name": "ServiceRequestDetailsAssigneeControl"
+        },
+        {
+          "Feature": 513,
+          "Name": "ServiceRequestDetailsNotificationRecipientControl"
+        },
+        {
+          "Feature": 514,
+          "Name": "ServiceRequestDetailsCheckpointSection"
+        },
+        {
+          "Feature": 515,
+          "Name": "ServiceRequestDetailsUpdateButton"
+        },
+        {
+          "Feature": 516,
+          "Name": "ServiceRequestDetailsTakeUpButton"
+        },
+        {
+          "Feature": 517,
+          "Name": "ServiceRequestDetailsPauseButton"
+        },
+        {
+          "Feature": 518,
+          "Name": "ServiceRequestDetailsCompleteButton"
+        },
+        {
+          "Feature": 519,
+          "Name": "ServiceRequestDetailsRejectButton"
+        },
+        {
+          "Feature": 520,
+          "Name": "ServiceRequestDetailsCancelButton"
+        },
+        {
+          "Feature": 521,
+          "Name": "ServiceRequestDetailsReopenButton"
+        },
+        {
+          "Feature": 522,
+          "Name": "ServiceRequestDetailsApproveButton"
+        },
+        {
+          "Feature": 523,
+          "Name": "ServiceRequestDetailsJournalPane"
+        },
+        {
+          "Feature": 524,
+          "Name": "ServiceRequestListTakeUpButton"
+        },
+        {
+          "Feature": 525,
+          "Name": "ServiceRequestListCompleteButton"
+        },
+        {
+          "Feature": 526,
+          "Name": "ServiceRequestListRejectButton"
+        },
+        {
+          "Feature": 528,
+          "Name": "ServiceRequestJournalCommentInput"
+        },
+        {
+          "Feature": 529,
+          "Name": "ServiceRequestSelectionColumn"
+        },
+        {
+          "Feature": 530,
+          "Name": "ServiceRequestEtaStatusColumn"
+        },
+        {
+          "Feature": 531,
+          "Name": "ServiceRequestIsAutomaticColumn"
+        },
+        {
+          "Feature": 532,
+          "Name": "ServiceRequestIsScheduledColumn"
+        },
+        {
+          "Feature": 533,
+          "Name": "ServiceRequestDetailsCancelButtonAccess"
+        },
+        {
+          "Feature": 534,
+          "Name": "ServiceRequestOverview"
+        },
+        {
+          "Feature": 535,
+          "Name": "ServiceRequestOverviewHr"
+        },
+        {
+          "Feature": 536,
+          "Name": "ServiceRequestScheduling"
+        },
+        {
+          "Feature": 537,
+          "Name": "ServiceRequestSchedulingUnitManager"
+        },
+        {
+          "Feature": 538,
+          "Name": "ServiceRequestPriorityControlUnitManager"
+        },
+        {
+          "Feature": 600,
+          "Name": "ResourceListCreateButton"
+        },
+        {
+          "Feature": 601,
+          "Name": "ItResourseResources"
+        },
+        {
+          "Feature": 700,
+          "Name": "ProjectEmployeeControl"
+        },
+        {
+          "Feature": 701,
+          "Name": "ProjectApprovalDetailsHeaderBlock"
+        },
+        {
+          "Feature": 702,
+          "Name": "ProjectGeneralInformationSection"
+        },
+        {
+          "Feature": 703,
+          "Name": "ProjectListExportButton"
+        },
+        {
+          "Feature": 704,
+          "Name": "ProjectOverview"
+        },
+        {
+          "Feature": 705,
+          "Name": "ProjectAssignments"
+        },
+        {
+          "Feature": 706,
+          "Name": "ProjectItResources"
+        },
+        {
+          "Feature": 707,
+          "Name": "ProjectApproveResourcePlanButton"
+        },
+        {
+          "Feature": 800,
+          "Name": "GetPrScheduleReportExportButton"
+        },
+        {
+          "Feature": 801,
+          "Name": "GetWeeklyReportButton"
+        },
+        {
+          "Feature": 802,
+          "Name": "ReportsSickColumn"
+        },
+        {
+          "Feature": 803,
+          "Name": "ReportsExportMonthlyHoursReportButton"
+        },
+        {
+          "Feature": 804,
+          "Name": "ReportsExportBenchReportButton"
+        },
+        {
+          "Feature": 806,
+          "Name": "ReportsRecreateWeeklyHoursReportButton"
+        },
+        {
+          "Feature": 807,
+          "Name": "ReportsExportWeeklyHoursReportButton"
+        },
+        {
+          "Feature": 808,
+          "Name": "ReportingWeeklyInfo"
+        },
+        {
+          "Feature": 809,
+          "Name": "ReportingMonthlyInfo"
+        },
+        {
+          "Feature": 810,
+          "Name": "ReportingMonthlyInfoWithOrganization"
+        },
+        {
+          "Feature": 811,
+          "Name": "ReportingPrSchedule"
+        },
+        {
+          "Feature": 812,
+          "Name": "ReportingExceedingBillable"
+        },
+        {
+          "Feature": 813,
+          "Name": "ReportingBench"
+        },
+        {
+          "Feature": 900,
+          "Name": "RoomsManagement"
+        },
+        {
+          "Feature": 1000,
+          "Name": "TimeApprovalButtons"
+        },
+        {
+          "Feature": 1001,
+          "Name": "TimeApporvalColumns"
+        },
+        {
+          "Feature": 1100,
+          "Name": "UnitInfo"
+        },
+        {
+          "Feature": 1102,
+          "Name": "UnitGeneralManagerControl"
+        },
+        {
+          "Feature": 1107,
+          "Name": "UnitItResources"
+        },
+        {
+          "Feature": 1108,
+          "Name": "UnitExportButton"
+        },
+        {
+          "Feature": 1200,
+          "Name": "SystemDismissalInstructions"
+        },
+        {
+          "Feature": 1300,
+          "Name": "OrganizationsManagement"
+        },
+        {
+          "Feature": 1500,
+          "Name": "InvoicingControl"
+        },
+        {
+          "Feature": 1501,
+          "Name": "InvoicingButtons"
+        }
+    ]
+}
