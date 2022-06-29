@@ -302,263 +302,278 @@
         },
         {
           "Feature": 455,
-          "Name": "EmployeeGetLeaveAddCompensationButton"
+          "Name": "AddCompensationButton",
+          "Description": "used to access AddCompensation button in OOORequests"
         },
         {
           "Feature": 456,
-          "Name": "EmployeeGetLeaveAddHsitoryButton"
+          "Name": "AddHsitoryButton",
+          "Description": "used to access AddHistory button in OOORequestas"
         },
         {
           "Feature": 466,
-          "Name": "BirthDateInfo"
+          "Name": "BirthDateInfo",
+          "Description": "used to access employee's birth date info in employee's profile and Employee's Grid"
         },
         {
           "Feature": 472,
-          "Name": "OOORequestFullAccess"
+          "Name": "OOORequestFullAccess",
+          "Description": "gives full access for the OOO requests"
         },
         {
           "Feature": 473,
-          "Name": "OOORequestPhoneColumn"
+          "Name": "OOORequestPhoneColumn",
+          "Description": "used to access phone column in OOO requests"
         },
         {
           "Feature": 474,
-          "Name": "EmployeeIllnessRemainingDaysColumn"
+          "Name": "EmployeeIllnessRemainingDaysColumn",
+          "Description": "used to access employee's illness remaining days column in OOO requests"
         },
         {
           "Feature": 475,
-          "Name": "EmployeeVacationRemainingDaysColumn"
+          "Name": "EmployeeVacationRemainingDaysColumn",
+          "Description": "used to access employee's vacation remaining days column in OOO requests"
         },
         {
           "Feature": 476,
-          "Name": "CompensationButton"
+          "Name": "CompensationButton",
+          "Description": "used to access EditCompensation/DeleteCompensation Buttons in Employee Profile/OOO requests"
         },
         {
           "Feature": 478,
-          "Name": "EmployeeQuitColumn"
+          "Name": "EmployeeQuitColumn",
+          "Description": "used to access Risk factors section in employee's profile"
         },
         {
           "Feature": 480,
-          "Name": "EmployeeResponsibleHrManagerColumn"
+          "Name": "EmployeeResponsibleHrManagerColumn",
+          "Description": "used to access employee's responsible HRM in employee's profile"
         },
         {
           "Feature": 489,
-          "Name": "EmployeeDismissalDateColumn"
+          "Name": "EmployeeDismissalDateColumn",
+          "Description": "used to access employee's dismissal date in employee's profile"
         },
         {
           "Feature": 490,
-          "Name": "EmployeeEmploymentDateColumn"
+          "Name": "EmployeeEmploymentDateColumn",
+          "Description": "used to access employee's employment date in employee's profile"
         },
         {
           "Feature": 491,
-          "Name": "EmployeeGenderColumn"
+          "Name": "EmployeeGenderColumn",
+          "Description": "used to access employee's gender info in employee's profile"
         },
         {
           "Feature": 492,
-          "Name": "EmployeePhoneColumn"
+          "Name": "EmployeePhoneColumn",
+          "Description": "used to access employee's phone info in employee's profile"
         },
         {
           "Feature": 500,
-          "Name": "ServiceRequestInfoTips"
-        },
-        {
-          "Feature": 501,
-          "Name": "ServiceRequestSetupScheduling"
-        },
-        {
-          "Feature": 502,
-          "Name": "ServiceRequestChainSubmission"
+          "Name": "ServiceRequestInfoTips",
+          "Description": "used to access service request info tips card (bottom right) in service request"
         },
         {
           "Feature": 503,
-          "Name": "ServiceRequestDetailsFeedbackSection"
-        },
-        {
-          "Feature": 504,
-          "Name": "ServiceRequestDetailsFeedbackEvaluationControl"
-        },
-        {
-          "Feature": 505,
-          "Name": "ServiceRequestDetailsFeedbackEvaluateButton"
+          "Name": "ServiceRequestDetailsFeedbackSection",
+          "Description": "used to access for feedback evaluation and feedback appeal section in service request"
         },
         {
           "Feature": 506,
-          "Name": "ServiceRequestDetailsFeedbackAppealControl"
-        },
-        {
-          "Feature": 507,
-          "Name": "ServiceRequestDetailsFeedbackAppealButton"
+          "Name": "ServiceRequestFeedbackAppealControl",
+          "Description": "used to access appeal button in administrative request"
         },
         {
           "Feature": 508,
-          "Name": "ServiceRequestDetailsInformationSection"
-        },
-        {
-          "Feature": 509,
-          "Name": "ServiceRequestDetailsProcessingSection"
+          "Name": "ServiceRequestInformationSection",
+          "Description": "used to access information section in service request. didn't understand what it means"
         },
         {
           "Feature": 510,
-          "Name": "ServiceRequestDetailsPriorityControl"
+          "Name": "ServiceRequestPriorityControl",
+          "Description": "used to access service request's priority"
         },
         {
           "Feature": 511,
-          "Name": "ServiceRequestDetailsEtaControl"
+          "Name": "ServiceRequestEtaControl",
+          "Description": "used to access ETA in service request"
         },
         {
           "Feature": 512,
-          "Name": "ServiceRequestDetailsAssigneeControl"
+          "Name": "ServiceRequestAssigneeControl",
+          "Description": "used to access assignees in service request"
         },
         {
           "Feature": 513,
-          "Name": "ServiceRequestDetailsNotificationRecipientControl"
+          "Name": "ServiceRequestNotificationRecipientControl",
+          "Description": "used to access Notification recipients in service request"
         },
         {
           "Feature": 514,
-          "Name": "ServiceRequestDetailsCheckpointSection"
+          "Name": "ServiceRequestCheckpointSection",
+          "Description": "used to access checkpoint section in service request"
         },
         {
           "Feature": 515,
-          "Name": "ServiceRequestDetailsUpdateButton"
+          "Name": "ServiceRequestUpdateButton",
+          "Description": "used to access Update button in service request"
         },
         {
           "Feature": 516,
-          "Name": "ServiceRequestDetailsTakeUpButton"
+          "Name": "ServiceRequestTakeUpButton",
+          "Description": "used to access Take Up button in service request"
         },
         {
           "Feature": 517,
-          "Name": "ServiceRequestDetailsPauseButton"
+          "Name": "ServiceRequestPauseButton",
+          "Description": "used to access Pause button in service request"
         },
         {
           "Feature": 518,
-          "Name": "ServiceRequestDetailsCompleteButton"
+          "Name": "ServiceRequestCompleteButton",
+          "Description": "used to access Complete button in service request"
         },
         {
           "Feature": 519,
-          "Name": "ServiceRequestDetailsRejectButton"
+          "Name": "ServiceRequestRejectButton",
+          "Description": "used to access Reject button in service request"
         },
         {
           "Feature": 520,
-          "Name": "ServiceRequestDetailsCancelButton"
+          "Name": "ServiceRequestCancelButton",
+          "Description": "used to access Cancel button in service request"
         },
         {
           "Feature": 521,
-          "Name": "ServiceRequestDetailsReopenButton"
+          "Name": "ServiceRequestReopenButton",
+          "Description": "used to access Reopen button in service request"
         },
         {
           "Feature": 522,
-          "Name": "ServiceRequestDetailsApproveButton"
-        },
-        {
-          "Feature": 523,
-          "Name": "ServiceRequestDetailsJournalPane"
+          "Name": "ServiceRequestApproveButton",
+          "Description": "used to access Approve button in service request"
         },
         {
           "Feature": 524,
-          "Name": "ServiceRequestListTakeUpButton"
+          "Name": "ServiceRequestListTakeUpButton",
+          "Description": "used to access Take up button in service request grid"
         },
         {
           "Feature": 525,
-          "Name": "ServiceRequestListCompleteButton"
+          "Name": "ServiceRequestListCompleteButton",
+          "Description": "used to access Complete button in service requests grid"
         },
         {
           "Feature": 526,
-          "Name": "ServiceRequestListRejectButton"
+          "Name": "ServiceRequestListRejectButton",
+          "Description": "used to access reject button in service requests grid"
         },
         {
           "Feature": 528,
-          "Name": "ServiceRequestJournalCommentInput"
+          "Name": "ServiceRequestJournalCommentInput",
+          "Description": "used to access Journal section in service request"
         },
         {
           "Feature": 529,
-          "Name": "ServiceRequestSelectionColumn"
+          "Name": "ServiceRequestSelectionColumn",
+          "Description": "used to access selection column in service request grid"
         },
         {
           "Feature": 530,
-          "Name": "ServiceRequestEtaStatusColumn"
+          "Name": "ServiceRequestEtaStatusColumn",
+          "Description": "used to access ETA status column in service request grid"
         },
         {
           "Feature": 531,
-          "Name": "ServiceRequestIsAutomaticColumn"
+          "Name": "ServiceRequestIsAutomaticColumn",
+          "Description": "used to access Automatic column in service request grid"
         },
         {
           "Feature": 532,
-          "Name": "ServiceRequestIsScheduledColumn"
+          "Name": "ServiceRequestIsScheduledColumn",
+          "Description": "used to access Scheduled column in service request grid"
         },
         {
           "Feature": 533,
-          "Name": "ServiceRequestDetailsCancelButtonAccess"
+          "Name": "ServiceRequestDetailsCancelButtonAccess",
+          "Description": "used to access Cancel button in service request"
         },
         {
           "Feature": 534,
-          "Name": "ServiceRequestOverview"
+          "Name": "ServiceRequestOverview",
+          "Description": "used to access service request overview in service request grid"
         },
         {
           "Feature": 535,
-          "Name": "ServiceRequestOverviewHr"
+          "Name": "ServiceRequestOverviewHr",
+          "Description": "used to access service request overview in service request grid for HRs"
         },
         {
           "Feature": 536,
-          "Name": "ServiceRequestScheduling"
+          "Name": "ServiceRequestScheduling",
+          "Description": "used to access service request scheduling in service request grid"
         },
         {
           "Feature": 537,
-          "Name": "ServiceRequestSchedulingUnitManager"
-        },
-        {
-          "Feature": 538,
-          "Name": "ServiceRequestPriorityControlUnitManager"
+          "Name": "ServiceRequestControlUnitManager",
+          "Description": "used to access service request scheduling/priority control in service request grid for unit managers"
         },
         {
           "Feature": 600,
-          "Name": "ResourceListCreateButton"
+          "Name": "ResourceListCreateButton",
+          "Description": "used to access Create button in resource in service resources grid"
         },
         {
-          "Feature": 601,
-          "Name": "ItResourseResources"
-        },
-        {
-          "Feature": 700,
-          "Name": "ProjectEmployeeControl"
+          "Feature": 601,   
+          "Name": "ItResourseResources",
+          "Description": "used to access service resources"
         },
         {
           "Feature": 701,
-          "Name": "ProjectApprovalDetailsHeaderBlock"
+          "Name": "ProjectApprovalDetailsHeaderBlock",
+          "Description": ""
         },
         {
           "Feature": 702,
-          "Name": "ProjectGeneralInformationSection"
+          "Name": "ProjectGeneralInformationSection",
+          "Description": "used to access general information section in Administrative projects"
         },
         {
           "Feature": 703,
-          "Name": "ProjectListExportButton"
+          "Name": "ProjectListExportButton",
+          "Description": "used to access export button in project grid"
         },
         {
           "Feature": 704,
-          "Name": "ProjectOverview"
+          "Name": "ProjectOverview",
+          "Description": "used to view project in in administrative projects"
         },
         {
           "Feature": 705,
-          "Name": "ProjectAssignments"
+          "Name": "ProjectAssignments",
+          "Description": "used to access Resource Plan in administrative project"
         },
         {
           "Feature": 706,
-          "Name": "ProjectItResources"
+          "Name": "ProjectItResources",
+          "Description": "used to access IT Resources in administrative project"
         },
         {
           "Feature": 707,
-          "Name": "ProjectApproveResourcePlanButton"
-        },
-        {
-          "Feature": 800,
-          "Name": "GetPrScheduleReportExportButton"
+          "Name": "ProjectApproveResourcePlanButton",
+          "Description": "used to access Approve Resource Plan button, Add Person button, Edit/Delete Resource buttons in administrative project"
         },
         {
           "Feature": 801,
-          "Name": "GetWeeklyReportButton"
+          "Name": "GetWeeklyReportButton",
+          "Description": ""
         },
         {
           "Feature": 802,
-          "Name": "ReportsSickColumn"
+          "Name": "ReportsSickColumn",
+          "Description": ""
         },
         {
           "Feature": 803,
@@ -566,7 +581,8 @@
         },
         {
           "Feature": 804,
-          "Name": "ReportsExportBenchReportButton"
+          "Name": "ReportsExportBenchReportButton",
+          "Description": "used to access Export button reports exceeding billable and Export button in reports bench"
         },
         {
           "Feature": 806,
