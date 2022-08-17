@@ -5,9 +5,11 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoLibrary", "DemoLibrary\DemoLibrary.csproj", "{178CC1C3-FA9C-470C-892F-BE323784AD6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoUI", "DemoUI\DemoUI.csproj", "{3CC29052-03E8-4031-B73C-258B8465F937}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoUI", "DemoUI\DemoUI.csproj", "{3CC29052-03E8-4031-B73C-258B8465F937}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormUI", "WinFormUI\WinFormUI.csproj", "{41675D34-5482-4285-9D18-0EFAD7E55D3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormUI", "WinFormUI\WinFormUI.csproj", "{41675D34-5482-4285-9D18-0EFAD7E55D3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolLibrary", "SchoolLibrary\SchoolLibrary.csproj", "{AD4EA830-2FA1-4F51-BEEE-0D088AE29136}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{41675D34-5482-4285-9D18-0EFAD7E55D3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41675D34-5482-4285-9D18-0EFAD7E55D3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41675D34-5482-4285-9D18-0EFAD7E55D3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD4EA830-2FA1-4F51-BEEE-0D088AE29136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD4EA830-2FA1-4F51-BEEE-0D088AE29136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD4EA830-2FA1-4F51-BEEE-0D088AE29136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD4EA830-2FA1-4F51-BEEE-0D088AE29136}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
